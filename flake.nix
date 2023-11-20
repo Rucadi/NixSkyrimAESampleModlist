@@ -2,7 +2,7 @@
   description = "A very basic flake";
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    skyrim.url = "/home/rucadi/NixSkyrimAE";
+    skyrim.url = "github:Rucadi/NixSkyrimAE";
   };
   outputs = { self, nixpkgs, skyrim }:
     let
